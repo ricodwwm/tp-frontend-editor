@@ -62,9 +62,9 @@ function nbCaracteres() {
         progressBarHtml.style.backgroundColor = "green";
     }
 
-    if(choice == 200) {
+    if (choice == 200) {
         textareaHtml.setAttribute("maxlength", choice);
-    } else if(choice == 500) {
+    } else if (choice == 500) {
         textareaHtml.setAttribute("maxlength", choice);
     } else {
         textareaHtml.setAttribute("maxlength", choice);
@@ -83,9 +83,9 @@ function nbCaracteres() {
         progressBarCss.style.backgroundColor = "green";
     }
 
-    if(choice2 == 200) {
+    if (choice2 == 200) {
         textareaCss.setAttribute("maxlength", choice2);
-    } else if(choice2 == 500) {
+    } else if (choice2 == 500) {
         textareaCss.setAttribute("maxlength", choice2);
     } else {
         textareaCss.setAttribute("maxlength", choice2);
