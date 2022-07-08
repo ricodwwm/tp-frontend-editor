@@ -1,0 +1,152 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: black;
+    margin: 0.5% 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.html_bloc, .css_bloc, .js_bloc {
+    width: 100%;
+}
+
+.css_bloc {
+    margin: 0 2px;
+}
+
+.container > div > h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.html_title {
+    color: rgb(255, 60, 0);
+}
+
+.css_title {
+    color: rgb(0, 153, 255);
+}
+
+.js_title {
+    color: rgb(247, 247, 14);
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.btn > input {
+    width: 30%;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 2px 0 ;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.btn > input:hover {
+    border: solid white 2px;
+    background-color: black;
+    color: white;
+}
+
+.css_bloc > .btn > input:nth-child(1):hover {
+    border: solid orange 2px;
+    color: orange;
+}
+
+.css_bloc > .btn > input:nth-child(2):hover {
+    border: solid lime 2px;
+    color: lime;
+}
+
+.css_bloc > .btn > input:nth-child(3):hover {
+    border: solid cyan 2px;
+    color: cyan;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 1.5em;
+    color: black;
+}
+
+.html_bloc > textarea:focus {
+    outline: none;
+    border: solid rgb(255, 60, 0) 5px;
+    padding: 6px;
+}
+
+.css_bloc > textarea:focus {
+    outline: none;
+    border: solid rgb(0, 153, 255) 5px;
+    padding: 6px;
+}
+
+.js_bloc > textarea:focus {
+    outline: none;
+    border: solid rgb(247, 247, 14) 5px;
+    padding: 6px;
+}
+
+.container_progressbar {
+    width: 100%;
+    height: 10px;
+    border: solid white 2px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.progressbar {
+    width: 0%;
+    height: 6px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+#nbcaracteres_html, #nbcaracteres_css, #nbcaracteres_js {
+    color: green;
+}
+
+.rest {
+    text-align: center;
+}
+
+#number_choice, #number_choice2, #number_choice3, option {
+    color: black;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.live_coding {
+    width: 90%;
+    margin: 2% auto;
+    padding: 10px;
+    border: solid white 2px;
+    box-shadow: 0 0 20px white;
+    min-height: 200px;
+    overflow-x: auto;
+}
+
